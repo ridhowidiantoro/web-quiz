@@ -127,6 +127,9 @@ function endQuiz() {
     document.getElementById("resultName").textContent = playerData.name;
     document.getElementById("resultNIM").textContent = playerData.nim;
     document.getElementById("resultScore").textContent = score;
+    document.getElementById("Nama").value = playerData.name;
+    document.getElementById("Nim").value = playerData.nim;
+    document.getElementById("Total_score").value = score;
 }
 
 function resetQuiz() {
